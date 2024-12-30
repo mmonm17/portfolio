@@ -92,6 +92,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/* TODO: Replace this with your blog link */}
             <Nav.Item>
               <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
@@ -101,10 +102,10 @@ function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
-
+            {/* TODO: Remove Fork Button */}
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/mmonm17/portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
